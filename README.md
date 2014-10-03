@@ -17,4 +17,4 @@ Apply changes to your configs for massive infrastructures without any need for r
 See www.discobit.com
 
 # Jenkins AutoConfig Plugin
-This plugin creates templated configurations via the discoBit API and returns configuration UUIDs.
+This plugin pushes selected property files from the Jenkins workspace to the discoBit configuration repository. The repository/configuration is specified by a UUID. 
