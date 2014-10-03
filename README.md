@@ -18,3 +18,5 @@ See www.discobit.com
 
 # Jenkins AutoConfig Plugin
 This plugin pushes selected property files from the Jenkins workspace to the discoBit configuration repository. The repository/configuration is specified by a UUID. 
+
+The plugin is not yet released in the Jenkins-CI library. Please download the .hpi plugin file from the release section and install it manually (using the Jenkins UI or CLI).
