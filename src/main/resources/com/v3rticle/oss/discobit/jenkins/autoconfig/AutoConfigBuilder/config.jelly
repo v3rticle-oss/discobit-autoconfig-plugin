@@ -1,0 +1,32 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+	
+	<f:section title="discoBit AutoConf - Configurations">
+		<f:entry title="Configuration files" field="configurations"
+	      description="Source: Add configuration files (incl. workspace path) ">
+	      <f:textbox />
+	    </f:entry>
+	    <f:entry title="discoBit UUID" field="cuuid"
+	      description="Target: Add the UUID of the discoBit Configuration">
+	      <f:textbox />
+	    </f:entry>
+	</f:section>
+	
+	
+	<f:section title="discoBit AutoConf - Repository (optionally override global settings)">
+	<f:entry title="discoBit URL" field="discobitUrl"
+      description="Add discoBit URL ">
+      <f:textbox />
+    </f:entry>
+	<f:entry title="User" field="discobitUser"
+      description="Add discoBit User">
+      <f:textbox />
+    </f:entry>
+    <f:entry title="Password" field="discobitPassword"
+      description="Add discoBit Password">
+      <f:password />
+    </f:entry>
+    <f:validateButton
+       title="${%Test Connection}" progress="${%Testing...}"
+       method="testConnection" with="discobitUrl,discobitUser,discobitPassword" />
+ 	 </f:section>
+</j:jelly>

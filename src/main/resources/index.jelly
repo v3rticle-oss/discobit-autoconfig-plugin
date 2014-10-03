@@ -1,0 +1,3 @@
+<div>
+  The AutoConf plugin pushes your selected application configurations to a discoBit configuration repository. discoBit is a remote configuration repository for applications. Properties are read from the repository during bootstrap or on demand by your software via REST API (see <a href="http://discobit.com">discobit.com</a>).
+</div>
