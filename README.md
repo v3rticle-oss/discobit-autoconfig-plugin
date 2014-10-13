@@ -1,5 +1,5 @@
-discobit-jenkins-plugin-autoconfig
-==================================
+discobit-autoconfig-plugin for Jenkins
+======================================
 
 
 discoBit - Remote Application Configuration Management
